@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://images.unsplash.com/photo-1557860537-4ca8968f344e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=386&q=80");
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    text-align: center;
+    height: 8vh;
+    width: 80vh;
+    background-color: purple;
+    color: white;
+    border-radius: 50px;
+}
+
+header h1 {
+    font-size: 5vh;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 3vh;
+}
+
+form input {
+    font-family: inherit;
+    font-size: 3vh;
+    padding: 1vw 2vw;
+    margin: 2vh 1vw;
+    border-radius: 2rem;
+    background-color: white;
+}
+
+form input[type="button"] {
+    padding: 1vw 5vw;
+    background-color: purple;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 0 0 1rem grey;
+}
+
+form input[type="button"]:hover {
+    cursor: pointer;
+    border: none;
+}
+
+#answer {
+    font-size: 1.5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 2.5rem black;
+}
